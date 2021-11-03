@@ -1,3 +1,20 @@
+
+# Pickup-Line-telegram-bot
+
+telegram bot for instant Pickuplines to impress your crush
+
+
+## Installation
+
+Required packages to run the project
+
+```bash
+  pip install python-telegram-bot
+```
+    
+## Usage/Examples
+
+```python
 from telegram import *
 from telegram.ext import *
 import os
@@ -161,4 +178,19 @@ updater.start_webhook(listen="0.0.0.0",
                       webhook_url="https://your-app-name.herokuapp.com/" + Token)
 
 updater.idle()
+
+
+```
+
+
+## Features
+
+- Fast
+- Unique
+- Amazing
+- Super easy to use
+
+## Authors
+
+- [@krishna_sonune](https://www.github.com/krishnasonune)
 
